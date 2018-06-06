@@ -443,7 +443,7 @@ ul li {
 	width: 94%;
 	margin: auto;
 	background-color: #fff;
-	position: absolute;
+	position: relative;
 	text-align: center;
 }
 .testimonials blockquote {
