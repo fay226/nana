@@ -68,11 +68,10 @@
       <div class="col-md-4 work-detail-margin detail-contentbox">
         <div class="detail-content">
           <h4>5000+ Movie Dataset Analysis</h4>
-          <p>Utilized the relationship between IMBD score and variables by principle component analysis, Ridge Lasso Regression, Regression Trees, and Random Forests by using R and Python</p>
-          <p>We obtained 28 variables in the movie dataset from 5043 movies and 4906 posters, spanning across 100 years in 66 countries. For example, there are 2399 unique director names, and thousands of actors/actresses. Our goal is to predict the IBDB Score of a movie based on attributes.</p>
+          <p>We obtained 28 variables in the movie dataset from 5043 movies and 4906 posters, spanning across 100 years in 66 countries. For example, there are 2399 unique director names, and thousands of actors/actresses. Our goal is to predict the IBDB Score of a movie based on these attributes.</p>
           <p>We first considered the linear regression model, where we conducted both variable and model selection using subset selection and stepwise method. We also utilized ridge and lasso regression to include all the variables, and we found that lasso regression performs well in our case as it forces some of the coefficients to be 0 and therefore mitigated the problem of multicollinearity and overfitting.</p>
           <p>We then considered non-parametric approaches including principle component analyses and tree methods. With a few components, the principle regression analysis performs the worst among all the models. Partial least squares, on the other hand, significant improves over the principle regression analysis and has the training and test error comparable to the linear models.</p>
-          <p>For these methods, we considered regression tree, tree pruning, bagging, random forests and boosting. To our surprise, the tree methods have in general yielded more than 30% improvement over our previous models in terms of mean square of errors (MSE). This non-parametric approach beats all the regressions we conducted previously.</p>
+          <p>For the tree methods, we considered regression tree, tree pruning, bagging, random forests and boosting. To our surprise, the tree methods have in general yielded more than 30% improvement over our previous models in terms of mean square of errors (MSE). This non-parametric approach beats all the regressions we conducted previously.</p>
 
           <a class="btn" href="#">Visit Site <i class="fa fa-long-arrow-right"></i></a> </div>
       </div>
